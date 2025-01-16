@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -6,19 +6,19 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import "./index.css";
 import App from "./App.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
 import PrintsPage from "./pages/PrintsPage.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
+import "./index.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" elements={<App />} errorElement={<ErrorPage />}>
+    <Route path="/" element={<App />} errorElement={<ErrorPage />}>
       <Route index element={<HomePage />} />
       <Route path="projects" element={<ProjectsPage />} />
-      <Route path="print" element={<PrintsPage />} />
+      <Route path="prints" element={<PrintsPage />} />
     </Route>
   )
 );

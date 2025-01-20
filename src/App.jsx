@@ -8,7 +8,7 @@ function App() {
       <div className="fixed z-50 w-full">
         <Navbar />
       </div>
-      <div className="flex flex-col justify-start w-full h-full pt-16 xl:pt-20 pb-16 bg-gradient-to-b from-lightest to-dark to-[130%]">
+      <div className="flex flex-col justify-start w-full h-full pt-16 xl:pt-20 bg-gradient-to-b from-lightest to-dark to-[130%]">
         <Outlet />
       </div>
     </div>

@@ -21,6 +21,16 @@ export default {
             transfrom: "translateX(0%)",
           },
         },
+        fadeFromRight: {
+          "0%": {
+            opacity: 0,
+            transform: "translateX(15%)",
+          },
+          "100%": {
+            opacity: 100,
+            transfrom: "translateX(0%)",
+          },
+        },
         fadeFromBottom: {
           "0%": {
             opacity: 0,
@@ -31,10 +41,22 @@ export default {
             transform: "translateY(0%)",
           },
         },
+        fadeFromTop: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(-15%)",
+          },
+          "100%": {
+            opacity: 100,
+            transform: "translateY(0%)",
+          },
+        },
       },
       animation: {
         fadeFromBottom: "fadeFromBottom 1s ease-in-out",
+        fadeFromTop: "fadeFromTop 1s ease-in-out",
         fadeFromLeft: "fadeFromLeft 0.75s ease-in-out",
+        fadeFromRight: "fadeFromRight 0.75s ease-in-out",
       },
     },
   },

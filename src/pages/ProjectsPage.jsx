@@ -24,7 +24,7 @@ const ProjectsPage = () => {
           image={NationalDex}
           hyperlink={"https://nationaldex.net"}
           description={
-            "NationalDex.net functions like a Pokedex from the beloved Pokémon franchise and allows user to build their own Pokémon teams. It started out as a simple portfolio builder but quickly turned into a passion project that I put a lot of time and effort into."
+            "NationalDex.net functions like a Pokédex from the beloved Pokémon franchise and allows user to build their own Pokémon teams. It started out as a simple portfolio builder but quickly turned into a passion project that I put a lot of time and effort into."
           }
         />
       </div>

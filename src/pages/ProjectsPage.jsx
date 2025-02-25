@@ -13,7 +13,7 @@ const ProjectsPage = () => {
           name={"Optimetrix"}
           image={Optimetrix}
           hyperlink={
-            "http://ec2-54-193-62-149.us-west-1.compute.amazonaws.com/"
+            "http://ec2-54-153-108-208.us-west-1.compute.amazonaws.com/"
           }
           description={
             "I primarily worked the front end on this site. The 3D map (Resium) package was particularly challenging to work with, but was undeniably satisfying to figure out."

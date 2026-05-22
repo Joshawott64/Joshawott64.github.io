@@ -1,6 +1,7 @@
 import ProjectBox from "../components/projects_page/ProjectBox.jsx";
 import NationalDex from "../assets/NationalDex.png";
 import Optimetrix from "../assets/Optimetrix.png";
+import InstaBingo from "../assets/InstaBingo.png";
 
 const ProjectsPage = () => {
   return (
@@ -25,6 +26,14 @@ const ProjectsPage = () => {
           hyperlink={"https://nationaldex.net"}
           description={
             "NationalDex.net functions like a Pokédex from the beloved Pokémon franchise and allows user to build their own Pokémon teams. It started out as a simple portfolio builder but quickly turned into a passion project that I put a lot of time and effort into."
+          }
+        />
+        <ProjectBox
+          name={"INSTA-BINGO"}
+          image={InstaBingo}
+          hyperlink={"https://joshawott64.github.io/insta-bingo/"}
+          description={
+            "A simple app I made to help get me out of a slump. INSTA-BINGO generates random BINGO cards and runs BINGO or BLACKOUT games. Cards are automatically updated when numbers are called. A winning card is called when the proper conditions are met."
           }
         />
       </div>

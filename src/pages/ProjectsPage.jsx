@@ -2,6 +2,7 @@ import ProjectBox from "../components/projects_page/ProjectBox.jsx";
 import NationalDex from "../assets/NationalDex.png";
 import Optimetrix from "../assets/Optimetrix.png";
 import InstaBingo from "../assets/InstaBingo.png";
+import Sabersmithy from "../assets/Sabersmithy.png";
 
 const ProjectsPage = () => {
   return (
@@ -34,6 +35,14 @@ const ProjectsPage = () => {
           hyperlink={"https://joshawott64.github.io/insta-bingo/"}
           description={
             "A simple app I made to help get me out of a slump. INSTA-BINGO generates random BINGO cards and runs BINGO or BLACKOUT games. Cards are automatically updated when numbers are called. A winning card is called when the proper conditions are met."
+          }
+        />
+        <ProjectBox
+          name={"Sabersmithy Reforged"}
+          image={Sabersmithy}
+          hyperlink={"https://www.youtube.com/watch?v=DbxtB5tVBxI"}
+          description={
+            "My solo project from Devmountain. I'm pretty sure that I restructured the database at least 12 times. Loads of fun to work on otherwise."
           }
         />
       </div>
